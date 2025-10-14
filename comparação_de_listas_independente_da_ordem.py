@@ -21,9 +21,13 @@ def comparar_listas_de_texto(texto1, texto2):
 # Cole aqui os textos com os nomes (um por linha)
 texto1 = """
 
+LISTA 1
+
 """
 
 texto2 = """
+
+LISTA 2
 
 """
 
