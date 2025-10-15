@@ -40,10 +40,10 @@ conteudo = []
 conteudo.append("✅ Nomes em comum:")
 conteudo.extend(f"- {nome}" for nome in sorted(repetidos))
 
-conteudo.append("\n❌ Nomes só na lista 1:")
+conteudo.append("\n✅ Nomes APENAS da Lista 1:")
 conteudo.extend(f"- {nome}" for nome in sorted(apenas_lista1))
 
-conteudo.append("\n❌ Nomes só na lista 2:")
+conteudo.append("\n✅ Nomes APENAS da Lista 2:")
 conteudo.extend(f"- {nome}" for nome in sorted(apenas_lista2))
 
 # Junta o conteúdo em uma única string
